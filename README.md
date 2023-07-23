@@ -21,7 +21,7 @@ Some features of this software are:
 ## Installation
 
  1. Download the latest stable release of the source code from the releases tab.
- 2. Open a terminal inside the source code folder or `cd` into it and type: `sudo ./makebh.sh`
+ 2. Open a terminal inside the source code folder or `cd` into it and type: `sudo ./makeff.sh`
  3. Done! 🎉
  
  or you could just save yourself all of the trouble by just getting [AZOS GNU/Linux](https://sites.google.com/view/azosofficialsite/download/versions). Version 2.0 has fastFlash and the rest of RedKit built-in :)
