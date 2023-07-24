@@ -36,13 +36,13 @@ Syntax is explained by using `fF -h` but we are going to show it here as well fo
    
 
 `Syntax:bH [action] ([isofile]) ([drive]) ([bssize])`
-``
-`Actions:
+
+ Actions:
                -f | flashes a .iso file. Specify your file or the directory and the file
                   | in the place of ([isofile]) and the drive in place of ([drive]). ex. /dev/sdc (where sdc is replaced with your drive name)"
                -c | lists all of your drives, don't specify anything after.
-               -h | shows this, don't specify anything after.
-               `
+               -h | shows this, don't specify anything after. `
+         
 
 
 ## Drawbacks
