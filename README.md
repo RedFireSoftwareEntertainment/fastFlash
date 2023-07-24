@@ -35,13 +35,17 @@ Some features of this software are:
 Syntax is explained by using `fF -h` but we are going to show it here as well for the sake of documentation:
    
 
-`Syntax:bH [action] ([isofile]) ([drive]) ([bssize])`
 
- Actions:
-               -f | flashes a .iso file. Specify your file or the directory and the file
-                  | in the place of ([isofile]) and the drive in place of ([drive]). ex. /dev/sdc (where sdc is replaced with your drive name)"
-               -c | lists all of your drives, don't specify anything after.
-               -h | shows this, don't specify anything after. `
+
+     Syntax:bH [action] ([isofile]) ([drive]) ([bssize])
+    
+     Actions:
+                   -f | flashes a .iso file. Specify your file or the directory and the file
+                      | in the place of ([isofile]) and the drive in place of ([drive]). ex. /dev/sdc (where sdc is replaced with your drive name)
+                   -c | lists all of your drives, don't specify anything after.
+                   -h | shows this, don't specify anything after. 
+
+               
          
 
 
