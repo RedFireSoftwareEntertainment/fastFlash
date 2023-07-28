@@ -28,6 +28,7 @@ help(){
 flash(){
   clear
   echo "WARNING! THE PROGRAM WILL ASK FOR SUPER USER PERMISSION IN ORDER TO WRITE TO THE SELECTED DRIVE! ALL DATA WILL BE OVERWRITED! PLEASE BACKUP BEFORE PROCEEDING!"
+  echo "$1 will be flashed to $2"
   su
   dd if=$1 of=$2 bs=100M status=progress
 }
