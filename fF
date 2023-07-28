@@ -13,7 +13,7 @@ help(){
   echo "# Welcome to fastFlash, the lightweight and customizable .iso file flasher by Red Fire Software Entertainment for AZOS GNU/Linux and other Arch-Based distros.    #"
   echo "###################################################################################################################################################################"
   echo ""
-  echo "Syntax:bH [action] ([isofile]) ([drive]) ([bssize])"
+  echo "Syntax:bH [action] ([isofile]) ([drive])"
   echo ""
   echo "Actions:"
   echo "               -f | flashes a .iso file. Specify your file or the directory and the file" 
