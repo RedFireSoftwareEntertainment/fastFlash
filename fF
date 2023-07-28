@@ -1,4 +1,4 @@
-#!/bin/bash
+if#!/bin/bash
 
 # Licenced under the GNU GPL 3.0
 # Part of AZOS GNU/Linux and all legal information from this legal page apply here: https://sites.google.com/view/azosofficialsite/legal
@@ -40,7 +40,7 @@ list(){
 if [ "$1" == "-h" ] || [ "$#" -eq  1 ]
 then
   help
-if [ "$1" == "-c" ] || [ "$#" -eq  1 ]
+elif [ "$1" == "-c" ] || [ "$#" -eq  1 ]
 then
   list
 elif [ "$1" == "-f" ] || [ "$#" -eq  3 ]
