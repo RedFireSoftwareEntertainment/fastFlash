@@ -37,13 +37,13 @@ list(){
   lsblk
 }
 
-if [ "$1" == "-h" ] || [ "$#" -eq  1 ]
+if [ "$1" == "-h" ] && [ "$#" -eq  1 ]
 then
   help
-elif [ "$1" == "-c" ] || [ "$#" -eq  1 ]
+elif [ "$1" == "-c" ] && [ "$#" -eq  1 ]
 then
   list
-elif [ "$1" == "-f" ] || [ "$#" -eq  3 ]
+elif [ "$1" == "-f" ] && [ "$#" -eq  3 ]
 then
   flash "$2" "$3"
 else
