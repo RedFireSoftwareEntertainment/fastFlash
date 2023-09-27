@@ -37,7 +37,7 @@ Syntax is explained by using `fF -h` but we are going to show it here as well fo
 
 
 
-     Syntax:bH [action] ([isofile]) ([drive]) ([bssize])
+     Syntax:bH [action] ([isofile]) ([drive])
     
      Actions:
                    -f | flashes a .iso file. Specify your file or the directory and the file
